@@ -1,0 +1,15 @@
+.baner{
+     background: url(./images/banner.png);
+     background-position: center;
+     background-size: cover;
+     height: 60vh;
+}
+.baner input[type="text"]{
+     width: 250px;
+     height: 55px;
+     border-radius: 10px;
+}
+.baner input[type="text"]::placeholder{
+     padding: 5px 20px;
+     letter-spacing: 1px;
+}
