@@ -4,7 +4,7 @@
      background-size: cover;
      height: 60vh;
 }
-.baner input[type="text"]{
+.baner input[type="text"],input[type="email"]{
      width: 250px;
      height: 55px;
      border-radius: 10px;
@@ -13,5 +13,7 @@
      padding: 5px 20px;
      letter-spacing: 1px;
 }
- 
+ #free{
+     margin-top: 100px !important;
+ }
   

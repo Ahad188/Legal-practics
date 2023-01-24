@@ -12,8 +12,8 @@
 <body>
      <nav class="navbar navbar-expand-lg bg-body-tertiary container p-3">
           <div class="container-fluid ">
-            <a class="navbar-brand" href="#"><img class="img-fluid d-inline text-dark" style="width:190px;"src="./images/logo.png" alt=""></a> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"><img class="img-fluid d-inline text-dark" style="width:190px;"src="./images/logo2.png" alt=""></a> 
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -111,9 +111,9 @@
           <!-- ============================== -->
           <!-- card -->
           <!-- ========================== -->
-          <section style="height: 600px;"> 
+          <section style="height: 600px;" class="mb-5 overflow-y-scroll"> 
                <div class="container d-flex justify-content-evenly">
-                    <div class="row gx-5">
+                    <div class="row gx-5 ">
                          <div class=" pt-5 text-center col-12 col-md-6 col-xl-4 border shadow-lg">
                               <div class="img-div">
                                    <img class="img-fluid" src="./images/business.png" alt="">
@@ -160,61 +160,119 @@
                </div>
           </section>
      <!-- frequency ask question -->
-     <section id="free">
+     <section id="free" class="mt-5 gy-sm-5 pt-sm-5">
           <div class="title text-center mt-5 mb-5">
                <h1 class="text-secondary">Frequently Asked Any Questions</h1>
                <p class="text-secondary mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
           </div>
-          <div class="container d-flex bg-primary ">
-               <div class="row col-xl-6 justify-content-evenly align-items-center flex-sm-row-reverse">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                         <div class="accordion-item mt-3 ps-5">
-                           <h2 class="accordion-header" id="flush-headingOne">
-                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                              What is the difference between float flex and grid?
+          <div class="container text-center">
+               <div class="row justify-content-md-center">
+                    <div class="col-lg-6 col-sm-12">
+                      <div>
+                         <div class="accordion" id="accordionPanelsStayOpenExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                   What is the difference between float flex and grid?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                  <div class="accordion-body">
+                                    <strong>CSS Flexbox Layout is that flexbox was designed for layout in one dimension </strong> Grid was designed for two-dimensional layout - rows, and columns 
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                   What Does Media Query Mean?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                  <div class="accordion-body">
+                                    <strong>T media query is an HTML/CSS functionality that allows the content of a Web page to adapt to the type of media that the page is being rendered in, such as a computer screen or that of a phone or tablet.</strong>  
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                   How do work css box-model?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                  <div class="accordion-body">
+                                    <strong>This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.</strong>  
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingfore">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefore" aria-expanded="false" aria-controls="panelsStayOpen-collapsefore">
+                                   What is HTML Semantics?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefore" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfore">
+                                  <div class="accordion-body">
+                                    <strong>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content.</strong>  
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                     
+                    <div class="col col-lg-6 col-sm-12">
+                       <img src="./images/faq.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+          </div>   
+     </section>
+     <!-- ============= -->
+     <!-- footer dection -->
+     <!-- ============= -->
+     <section>
+          <footer class="bg-black">
+               <div class="container text-center">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-6 mt-5 ">
+                         <img src="./images/logo.png" alt="">
+                         <p class="text-center mt-3 text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <h3 class="mt-5 mb-3 text-white">Usefull Link</h3>
+                         <div>
+                              <a href="#" style="text-decoration: none;" class="text-secondary p-2">Home</a>
+                         </div>
+                         <div>
+                              <a href="#" style="text-decoration: none;" class="text-secondary p-3">About</a>
+                         </div>
+                         <div>
+                              <a href="#" style="text-decoration: none;" class="text-secondary p-3">Case</a>
+                         </div>
+                         <div>
+                              <a href="#" style="text-decoration: none;" class="text-secondary p-3">Contack</a>
+                         </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <h3 class="mt-5 mb-3 text-white">Contack Now</h3>
+                        <p class="text-center mt-3 text-secondary">555 4th 5t NW, Washington <br> DC 20530, United States
+                         </p>
+                         <p class="text-center mt-3 text-secondary">+88 01750 000 000 <br>+88 01750 000 000</p>
+                         <p class="text-center mt-3 text-secondary">
+                              info@gmai.com <br>info@gmai.com <br>
+                         </p>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <h3 class="mt-5 mb-3 text-white">Subcribe</h3>
+                        <p class="text-start ps-4 mt-3 text-secondary">Subscribe for our latest & <br> Articles. We Won t Give You <br>Spam Mails</p>
+                        <input type="text" class="form-control mb-3" placeholder="  Your Email">
+                        <a class="btn btn-outline-warning text-white bg-warning" href="#"><img src="./images/email.png" alt="" style="width: 30px;" class="img-fluid mt-2"></a>
+                      </div>
+                    </div>
+                  </div>
 
-                             </button>
-                           </h2>
-                           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                             <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications share some common features, however, and if you have already learned how to use flexbox, the similarities should help you get to grips with Grid.</div>
-                           </div>
-                         </div>
-                         <div class="accordion-item mt-3 ps-5">
-                           <h2 class="accordion-header" id="flush-headingTwo">
-                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                              What Does Media Query Mean?
-                             </button>
-                           </h2>
-                           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                             <div class="accordion-body">A media query is an HTML/CSS functionality that allows the content of a Web page to adapt to the type of media that the page is being rendered in, such as a computer screen or that of a phone or tablet. This is considered as a core technology for implementing responsive Web design and was recommended for implementation as a standard in June of 2012 together with other CSS3 functionalities.</div>
-                           </div>
-                         </div>
-                         <div class="accordion-item mt-3 ps-5">
-                           <h2 class="accordion-header" id="flush-headingThree">
-                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                               How do work css box-model?
-                             </button>
-                           </h2>
-                           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                             <div class="accordion-body">A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS. </div>
-                           </div>
-                         </div>
-                         <div class="accordion-item mt-3 ps-5">
-                           <h2 class="accordion-header" id="flush-headingFore">
-                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFore" aria-expanded="false" aria-controls="flush-collapseFore">
-                              What is HTML Semantics?
-                             </button>
-                           </h2>
-                           <div id="flush-collapseFore" class="accordion-collapse collapse" aria-labelledby="flush-headingFore" data-bs-parent="#accordionFlushExample">
-                             <div class="accordion-body">The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content.</div>
-                           </div>
-                         </div>
-                       </div>
-               </div>
-               <div class="row col-xl-6  justify-content-evenly">
-                    <img src="./images/faq.png" alt="">
-               </div>
-          </div>
+          </footer>
      </section>
 
 
@@ -225,7 +283,7 @@
 
 
 
-
+ 
 
 
 
